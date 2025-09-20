@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------
 # AUTHOR: Cyenadi Greene
-# FILENAME: title of the source file
+# FILENAME: descision_tree.py
 # SPECIFICATION: This program will read the file contact_lens.csv and output a decision tree
 # FOR: CS 4210- Assignment #1
 # TIME SPENT: 1 hour 
@@ -73,4 +73,5 @@ clf = clf.fit(X, Y)
 # plotting the decision tree
 tree.plot_tree(clf, feature_names=['Age', 'Spectacle', 'Astigmatism', 'Tear'], 
                class_names=['Yes','No'], filled=True, rounded=True)
+
 plt.show()
